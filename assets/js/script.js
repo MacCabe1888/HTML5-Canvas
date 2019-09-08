@@ -1,3 +1,5 @@
+alert("Click anywhere in the window to start drawing!");
+
 const canvas = document.querySelector("#draw");
 const context = canvas.getContext("2d");
 canvas.width = window.innerWidth;
